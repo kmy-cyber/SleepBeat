@@ -9,10 +9,10 @@ from src.model_training import entrenar_y_evaluar_modelo
 # --- Configuración Global ---
 FS = 100
 DURACION_EPOCA_S = 30
-RUTA_DATOS_PPG = 'data/ppg_signal.csv'
-RUTA_ETIQUETAS_SUENO = 'data/sleep_labels.csv'
-RUTA_SALIDA_CARACTERISTICAS = 'data/features.csv'
-RUTA_SALIDA_ETIQUETAS_PROC = 'data/labels_processed.csv'
+RUTA_DATOS_PPG = 'src/data/ppg_signal.csv'
+RUTA_ETIQUETAS_SUENO = 'src/data/sleep_labels.csv'
+RUTA_SALIDA_CARACTERISTICAS = 'src/data/features.csv'
+RUTA_SALIDA_ETIQUETAS_PROC = 'src/data/labels_processed.csv'
 
 def main():
     """
